@@ -13,7 +13,7 @@ import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var imageAnalyzer: ClassifyImageAnalyzer
+    private lateinit var imageAnalyzer: ClassifyImageViewModel
 
     private val camera
         get() = supportFragmentManager.findFragmentById(R.id.cameraFragment) as CameraFragment
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val boundingBoxArOverlay = BoundingBoxArOverlay(this, BuildConfig.DEBUG)
-        imageAnalyzer = ViewModelProviders.of(this).get(ClassifyImageAnalyzer::class.java)
+        imageAnalyzer = ViewModelProviders.of(this).get(ClassifyImageViewModel::class.java)
 
         camera.imageAnalyzer = imageAnalyzer
         camera.arOverlayView.observe(camera, Observer {

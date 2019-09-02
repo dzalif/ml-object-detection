@@ -25,7 +25,7 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/Users/rizkycitrakurnia/Desktop/ObjectDetectionSample/app/src/debug/java;/Users/rizkycitrakurnia/Desktop/ObjectDetectionSample/app/src/release/kotlin;/Users/rizkycitrakurnia/Desktop/ObjectDetectionSample/app/src/release/java;/Users/rizkycitrakurnia/Desktop/ObjectDetectionSample/app/src/debugAndroidTest/kotlin;/Users/rizkycitrakurnia/Desktop/ObjectDetectionSample/app/src/debugUnitTest/kotlin;/Users/rizkycitrakurnia/Desktop/ObjectDetectionSample/app/src/releaseUnitTest/kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/Users/rizkycitrakurnia/Desktop/Alif/projects/ml-object-detection/app/src/debug/java;/Users/rizkycitrakurnia/Desktop/Alif/projects/ml-object-detection/app/src/release/kotlin;/Users/rizkycitrakurnia/Desktop/Alif/projects/ml-object-detection/app/src/release/java;/Users/rizkycitrakurnia/Desktop/Alif/projects/ml-object-detection/app/src/debugAndroidTest/kotlin;/Users/rizkycitrakurnia/Desktop/Alif/projects/ml-object-detection/app/src/debugUnitTest/kotlin;/Users/rizkycitrakurnia/Desktop/Alif/projects/ml-object-detection/app/src/releaseUnitTest/kotlin">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>

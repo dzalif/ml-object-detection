@@ -19,11 +19,11 @@ import de.crysxd.cameraXTracker.ar.ArObjectTracker
 import timber.log.Timber
 import java.util.concurrent.atomic.AtomicBoolean
 
-class ClassifyImageAnalyzer : ViewModel(), ThreadedImageAnalyzer {
+class ClassifyImageViewModel : ViewModel(), ThreadedImageAnalyzer {
 
     val arObjectTracker = ArObjectTracker()
     private val isBusy = AtomicBoolean(false)
-    private val handlerThread = HandlerThread("ClasssifyImageAnalyzer").apply { start() }
+    private val handlerThread = HandlerThread("ClasssifyImageViewModel").apply { start() }
     private val uiHandler = Handler(Looper.getMainLooper())
     private val objectDetector = FirebaseVision.getInstance().getOnDeviceObjectDetector(
         FirebaseVisionObjectDetectorOptions.Builder()
